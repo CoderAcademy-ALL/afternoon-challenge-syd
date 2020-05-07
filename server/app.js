@@ -6,7 +6,7 @@ const router = express.Router();
 let profile;
 
 router.get('/',function(req,res){
-    res.send("Hello")
+    res.send("Hello, World");
 });
 
 
